@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-  color: #FFFFFF;
+  color: #fff;
   display: inline-block;
   font-size: 6.2em;
   margin: 1.2em 0.2em 0.1em 0.04em;
 }
 
 .user-submit {
-  background-color: #FFC107;
+  background-color: #ffc107;
   border-style: none;
-  color: #FFFFFF;
+  color: #fff;
   font-family: 'Open-Sans', sans-serif;
   font-size: 1.2em;
   font-weight: 800;
@@ -23,15 +23,15 @@ h1 {
 }
 
 .user-submit:hover {
-  background-color: #FFD773;
+  background-color: #ffd773;
 }
 
 .user-submit:disabled {
-	background-color: #F05A28;
+	background-color: #c9c1ab;
 }
 
 .left-side {
-  background-color: #455A64;
+  background-color: #455a64;
   height: 100vw;
   width: 50%;
   position: absolute;
@@ -53,11 +53,11 @@ h1 {
 }
 
 .website-input::placeholder {
-  color: #BBBDBF;
+  color: #bbbdbf;
 }
 
 .right-side {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
   height: 100vw;
   overflow-y: scroll;
   padding: 0em 0em 0em 0em; 
@@ -67,8 +67,8 @@ h1 {
 }
 
 .bookmark-cards {
-  background-color: #FFFFFF;
-  border: 1px solid #607D8B;
+  background-color: #fff;
+  border: 1px solid #607d8b;
   margin: 1em 1.2em 1.4em 1.2em;
   padding: 0.6em 1.2em;
 }
@@ -80,40 +80,39 @@ h1 {
 .bookmark-btn {
   background-color: transparent;
   border: none;
-  color: #455A64;
+  color: #455a64;
   font-family: 'Open-Sans', sans-serif;
-  text-decoration-color: #F2F4F4;
+  text-decoration-color: #f2f4f4;
   text-decoration: underline;
 }
 
 .bookmark-btn:hover {
 	font-weight: 800;
-	text-decoration-color: #FFC107;
+	text-decoration-color: #ffc107;
 }
 
 .bookmark-content {
-	color: #455A64;
-
+	color: #455a64;
 }
 
 .bookmark-content-url {
-  color: #607D8B;
-  text-decoration-color: #F2F4F4;
+  color: #607d8b;
+  text-decoration-color: #f2f4f4;
   text-decoration: underline;
 }
 
 .bookmark-content-url:hover {
   font-weight: 800;
-  text-decoration-color: #FFC107;
+  text-decoration-color: #ffc107;
 }
 
 .read {
-  color: #F05A28;
-  background-color: #F2F4F4;
+  color: #f05a28;
+  background-color: #f2f4f4;
 }
 
 .bookmark-interactions {
-  background-color: #F2F4F4;
+  background-color: #f2f4f4;
   height: 7em;
   text-align: center;
   top: 0em;
@@ -121,7 +120,7 @@ h1 {
 }
 
 .bookmark-info {
-  color: #455A64;
+  color: #455a64;
   display: inline-block;
   font-size: 1.4em;
   margin-left: 2em;
@@ -129,15 +128,15 @@ h1 {
 }
 
 button.bookmark-info {
-  background-color: #FFC107;
+  background-color: #ffc107;
   border: none;
-  color: #FFFFFF;
+  color: #fff;
   margin: 0px auto;
-  width: 100%;
+  width: 60%;
 }
 
 .cards-read {
-  color: #F05A28;
+  color: #f05a28;
 }
 
 @media only screen and (max-width: 1370px){
@@ -157,19 +156,17 @@ button.bookmark-info {
   height: 100%;
   position: static;
   width: 100%;
-}
+  }
 
-.right-side {
-  height: 100%;
-  position: static;
-  width: 100%;
-}
+  .right-side {
+    height: 100%;
+    position: static;
+    width: 100%;
+  }
 
-div.bookmark-interactions {
-  height: 150px;
-  max-width: 100%;
-  width: 100%;
+  div.bookmark-interactions {
+    height: 150px;
+    max-width: 100%;
+    width: 100%;
+  }
 }
-}
-
-
